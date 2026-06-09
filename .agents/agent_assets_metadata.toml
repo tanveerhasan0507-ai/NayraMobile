@@ -42,3 +42,15 @@ id = "f7blRnUcLhBZhluC75_5l"
 uri = "file://artifacts/nayra-mobile/public/nord-ce4.png"
 type = "image"
 title = "OnePlus Nord CE4"
+
+[[generated]]
+id = "urDhzRQQ1kor9M85kT3PI"
+uri = "file://attached_assets/generated_images/samsung_galaxy_s24_ultra_b4bc.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xAofxMbgCtMHEc10Z09uK"
+uri = "file://attached_assets/generated_images/samsung_galaxy_s24_ultra_7679.png"
+type = "image"
+title = "generated_image"
