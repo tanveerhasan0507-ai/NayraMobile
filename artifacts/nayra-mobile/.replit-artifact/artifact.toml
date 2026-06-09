@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "NAYRA MOBILE SHOP"
+version = "1.0.0"
+id = "artifacts/nayra-mobile"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22942
+
+[services.development]
+run = "pnpm --filter @workspace/nayra-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nayra-mobile", "run", "build" ]
+publicDir = "artifacts/nayra-mobile/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22942"
+BASE_PATH = "/"

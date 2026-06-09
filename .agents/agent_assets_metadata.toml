@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "3SCw9SgUyO8A20Fhc5G5E"
+uri = "file://artifacts/nayra-mobile/public/hero-phone.png"
+type = "image"
+title = "Hero cinematic smartphone"
+
+[[generated]]
+id = "0nmFu6pqDEhY-chTvFAAT"
+uri = "file://artifacts/nayra-mobile/public/iphone-15-pro.png"
+type = "image"
+title = "iPhone 15 Pro"
+
+[[generated]]
+id = "Bri86Hjb-3rdsue27Avjh"
+uri = "file://artifacts/nayra-mobile/public/s24-ultra.png"
+type = "image"
+title = "Samsung Galaxy S24 Ultra"
+
+[[generated]]
+id = "Q3tG88LAaYCA1_EtPKWw7"
+uri = "file://artifacts/nayra-mobile/public/oneplus-12.png"
+type = "image"
+title = "OnePlus 12"
+
+[[generated]]
+id = "sf790td6o3lTgTGw5Ljmd"
+uri = "file://artifacts/nayra-mobile/public/iphone-14.png"
+type = "image"
+title = "iPhone 14"
+
+[[generated]]
+id = "cb5puXByC0zILB-sqa3kA"
+uri = "file://artifacts/nayra-mobile/public/galaxy-a55.png"
+type = "image"
+title = "Samsung Galaxy A55"
+
+[[generated]]
+id = "f7blRnUcLhBZhluC75_5l"
+uri = "file://artifacts/nayra-mobile/public/nord-ce4.png"
+type = "image"
+title = "OnePlus Nord CE4"

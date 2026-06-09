@@ -1,0 +1,23 @@
+Build a modern, conversion-focused marketing and showcase website for a premium mobile phone shop called "NAYRA MOBILE SHOP". The primary goal of the web app is to attract local customers, showcase the latest smartphones, offer trade-in calculations, and drive inquiries. 
+
+Please include the following key pages and features:
+
+1. Navigation & Branding: A sleek, dark-themed top navigation bar with the logo, links to categories (Apple, Samsung, OnePlus, Accessories), a Trade-In Calculator link, and a prominent "Contact Us" button.
+
+2. Hero Section: A visually stunning, high-converting banner featuring a cinematic smartphone graphic, a bold headline ("Upgrade Your Vibe. Get the Latest Smartphones Today."), a subheadline highlighting "100% Genuine Products | Easy EMIs | Instant Trade-In", and two Call-to-Action buttons: "Browse Collection" and "Check Exchange Value".
+
+3. Featured Products Grid: An interactive catalog showcasing trending phones (e.g., iPhone 15 Pro, Samsung Galaxy S24 Ultra). Each product card must display:
+   - High-quality mock images.
+   - Key specifications (Camera, Battery, Processor) using clean icons.
+   - Pricing with a striking "Regular Price" crossed out and a bold "Offer Price".
+   - A "View Details" button that opens an attractive modal/popup with deeper specs and an "Inquire on WhatsApp" primary button.
+
+4. Interactive Trade-In Calculator (Marketing Hook): A dynamic tool where users can select their current phone brand, model, and condition (Excellent, Good, Broken) from a dropdown to get an instant estimated resale/exchange value. Include a "Claim This Value" button that forwards this data to a contact form.
+
+5. Deal of the Day / Countdown Timer: A section with a live countdown timer showing limited-time discount offers on top accessories (e.g., wireless chargers, premium cases) to create urgency.
+
+6. Lead Generation & Contact Form: A beautifully designed form for booking a store visit, requesting a callback, or asking about stock. Include fields for Name, Phone Number, Interested Model, and a Message.
+
+7. Footer: Store location map placeholder, operating hours (e.g., 10 AM - 9 PM), social media links, and a floating WhatsApp chat widget in the bottom right corner for instant customer support.
+
+Design Style: Use Tailwind CSS with a premium tech aesthetic. Utilize a dark mode background (slate-900), vibrant neon blue/cyan accents (#00d2ff) for buttons and highlights, clean typography, smooth hover animations on product cards, and a fully mobile-responsive grid layout.
