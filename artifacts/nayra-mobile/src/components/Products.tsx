@@ -14,7 +14,7 @@ const products = [
     camera: "48MP ProVision", 
     battery: "4685mAh", 
     chip: "A19 Pro", 
-    image: "/iphone-17-pro-max.png",
+    image: "/iphone-17-pro-max.webp",
     desc: "The ultimate iPhone. Forged in Desert Titanium with the revolutionary A19 Pro chip, ProVision camera system, and all-day battery."
   },
   { 
