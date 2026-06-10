@@ -96,3 +96,21 @@ id = "ZmkYIc0RWb0NCslRMJNCv"
 uri = "file://attached_assets/generated_images/samsung_galaxy_s25_plus_de02.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "rEerpH9V9TDg0XwK-LmPK"
+uri = "file://attached_assets/generated_images/iphone_17_pro_max_88af.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "kFdwjlVHsZ5RB9PsCIcMi"
+uri = "file://attached_assets/generated_images/iphone_17_pro_max_50be.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "7Szk4NHEsA29zXJK44pRK"
+uri = "file://attached_assets/generated_images/apple_iphone_17_pro_95be.png"
+type = "image"
+title = "generated_image"
