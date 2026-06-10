@@ -54,3 +54,9 @@ id = "xAofxMbgCtMHEc10Z09uK"
 uri = "file://attached_assets/generated_images/samsung_galaxy_s24_ultra_7679.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "KBaTSeHEsd3LpZ9qlVtnX"
+uri = "file://attached_assets/generated_images/two_iphone_17_pro_a252.png"
+type = "image"
+title = "generated_image"
