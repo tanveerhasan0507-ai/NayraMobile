@@ -84,7 +84,7 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-white/5 pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 text-center">
           
           <div className="space-y-4">
             <span className="text-2xl font-bold tracking-tighter text-white neon-text-glow">
@@ -132,7 +132,7 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Location</h4>
             <div className="w-full h-32 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center relative overflow-hidden group">
-              <div className="absolute inset-0 bg-primary/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="absolute inset-0 bg-primary/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity border-t-[#f8f8fc] border-r-[#f8f8fc] border-b-[#f8f8fc] border-l-[#f8f8fc]"></div>
               <div className="flex flex-col items-center gap-2 text-white/40">
                 <MapPin size={24} />
                 <span className="text-sm font-medium">Map Placeholder</span>
