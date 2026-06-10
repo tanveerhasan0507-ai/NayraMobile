@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, CreditCard, RefreshCw, Zap, Award } from "lucide-react";
-import { SiApple, SiSamsung, SiOneplus } from "react-icons/si";
+import { ShieldCheck, CreditCard, RefreshCw, Zap, Award, Smartphone } from "lucide-react";
+import { SiApple, SiSamsung } from "react-icons/si";
 
 export function Hero() {
   const scrollTo = (id: string) => {
@@ -76,7 +76,7 @@ export function Categories() {
   const categories = [
     { name: "Apple", icon: SiApple, color: "hover:text-white hover:border-white" },
     { name: "Samsung", icon: SiSamsung, color: "hover:text-[#1428A0] hover:border-[#1428A0]" },
-    { name: "OnePlus", icon: SiOneplus, color: "hover:text-[#F5010C] hover:border-[#F5010C]" },
+    { name: "Vivo", icon: Smartphone, color: "hover:text-[#415FFF] hover:border-[#415FFF]" },
     { name: "Accessories", icon: Zap, color: "hover:text-primary hover:border-primary" },
   ];
 

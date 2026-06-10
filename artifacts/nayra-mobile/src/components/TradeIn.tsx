@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 
-type Brand = "Apple" | "Samsung" | "OnePlus" | "Xiaomi" | "Realme";
+type Brand = "Apple" | "Samsung" | "Vivo" | "Xiaomi" | "Realme";
 type Condition = "Excellent" | "Good" | "Fair" | "Broken";
 
 const modelsData: Record<Brand, string[]> = {
   Apple: ["iPhone 14 Series", "iPhone 13 Series", "iPhone 12 Series", "iPhone 11 Series"],
   Samsung: ["Galaxy S23 Series", "Galaxy S22 Series", "Galaxy A Series", "Galaxy Z Fold/Flip"],
-  OnePlus: ["OnePlus 11 Series", "OnePlus 10 Series", "OnePlus Nord Series"],
+  Vivo: ["Vivo X300 Pro", "Vivo V40 Pro", "Vivo X90 Series", "Vivo V30 Series"],
   Xiaomi: ["Xiaomi 13 Series", "Redmi Note 12 Series", "Poco Series"],
   Realme: ["Realme 11 Series", "Realme 10 Series", "Realme GT Series"],
 };
@@ -31,8 +31,8 @@ export function TradeIn() {
       baseValue = model.includes("14") || model.includes("13") ? 40000 : 20000;
     } else if (brand === "Samsung") {
       baseValue = model.includes("S23") || model.includes("Z") ? 35000 : 15000;
-    } else if (brand === "OnePlus") {
-      baseValue = 18000;
+    } else if (brand === "Vivo") {
+      baseValue = model.includes("X300") ? 22000 : 14000;
     } else if (brand === "Xiaomi") {
       baseValue = 8000;
     } else if (brand === "Realme") {

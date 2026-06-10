@@ -26,7 +26,7 @@ export function Navbar() {
   const navLinks = [
     { name: "Apple", id: "collection" },
     { name: "Samsung", id: "collection" },
-    { name: "OnePlus", id: "collection" },
+    { name: "Vivo", id: "collection" },
     { name: "Accessories", id: "deals" },
     { name: "Trade-In Calculator", id: "trade-in" },
   ];

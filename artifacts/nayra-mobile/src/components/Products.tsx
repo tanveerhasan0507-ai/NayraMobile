@@ -67,15 +67,15 @@ const products = [
   },
   { 
     id: 6, 
-    name: "OnePlus 13", 
-    brand: "OnePlus",
-    regularPrice: 79999, 
-    offerPrice: 69999, 
-    camera: "50MP Hasselblad", 
-    battery: "6000mAh", 
-    chip: "Snapdragon 8 Elite", 
-    image: "/oneplus-13.png",
-    desc: "Hasselblad cameras. Snapdragon 8 Elite. 100W SUPERVOOC charging. Flagship performance at an incredible price."
+    name: "Vivo V40 Pro", 
+    brand: "Vivo",
+    regularPrice: 54999, 
+    offerPrice: 46999, 
+    camera: "50MP ZEISS Dual", 
+    battery: "5500mAh", 
+    chip: "Snapdragon 7 Gen 3", 
+    image: "/vivo-x300-pro.png",
+    desc: "ZEISS dual portrait cameras. Aura Light technology. 80W FlashCharge and a sleek ultra-slim design built to impress."
   },
 ];
 
