@@ -124,7 +124,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span>+91 99999 99999</span>
+                <span>+91 96311 83078</span>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ export function Footer() {
 export function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/919999999999"
+      href="https://wa.me/919631183078"
       target="_blank"
       rel="noreferrer"
       className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform z-50 group"

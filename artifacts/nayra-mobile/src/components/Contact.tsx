@@ -64,7 +64,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold text-white mb-2">Priority Support</h3>
               <p className="text-sm text-white/60 mb-6">Skip the line and chat with us directly on WhatsApp for instant assistance.</p>
               <Button 
-                onClick={() => window.open("https://wa.me/919999999999", "_blank")}
+                onClick={() => window.open("https://wa.me/919631183078", "_blank")}
                 className="w-full bg-[#25D366] hover:bg-[#20b858] text-white"
               >
                 Chat on WhatsApp

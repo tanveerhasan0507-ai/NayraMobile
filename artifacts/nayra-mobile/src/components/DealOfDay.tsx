@@ -32,7 +32,7 @@ export function DealOfDay() {
 
   const handleClaim = (name: string) => {
     const msg = encodeURIComponent(`Hi! I'd like to claim the deal of the day for: ${name}`);
-    window.open(`https://wa.me/919999999999?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919631183078?text=${msg}`, "_blank");
   };
 
   return (

@@ -88,7 +88,7 @@ export function Products() {
 
   const handleInquire = (productName: string) => {
     const msg = encodeURIComponent(`Hi Nayra Mobile Shop! I'm interested in the ${productName}. Can you share more details and availability?`);
-    window.open(`https://wa.me/919999999999?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919631183078?text=${msg}`, "_blank");
   };
 
   return (

@@ -124,7 +124,7 @@ export function Catalog() {
 
   const handleInquire = (name: string, price: string) => {
     const msg = encodeURIComponent(`Hi Nayra Mobile Shop! I'm interested in the ${name} (${price}). Is it available? Please share details.`);
-    window.open(`https://wa.me/919999999999?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919631183078?text=${msg}`, "_blank");
   };
 
   return (
@@ -222,7 +222,7 @@ export function Catalog() {
             data-testid="button-catalog-whatsapp"
             onClick={() => {
               const msg = encodeURIComponent("Hi Nayra Mobile Shop! I'm looking for a specific phone model. Can you help?");
-              window.open(`https://wa.me/919999999999?text=${msg}`, "_blank");
+              window.open(`https://wa.me/919631183078?text=${msg}`, "_blank");
             }}
             className="gap-2 bg-[#25D366] hover:bg-[#20bc5a] text-white border-0"
           >
