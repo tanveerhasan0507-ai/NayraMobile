@@ -60,3 +60,39 @@ id = "KBaTSeHEsd3LpZ9qlVtnX"
 uri = "file://attached_assets/generated_images/two_iphone_17_pro_a252.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "p1I_daEHzQji-0wALn0GT"
+uri = "file://attached_assets/generated_images/iphone_17_pro_max_7dcd.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "0cNjSkSBqF_QCzB_wxl9x"
+uri = "file://attached_assets/generated_images/vivo_x300_pro_official_3e89.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "q_d235GGtMo1gcLxIR9yo"
+uri = "file://attached_assets/generated_images/iphone_17_pro_official_e99d.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "OG1Q67Hd_v4R4trptd72K"
+uri = "file://attached_assets/generated_images/samsung_galaxy_s25_ultra_4b8c.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "F1DMSo5Lz2KxWr5Nzpu1O"
+uri = "file://attached_assets/generated_images/oneplus_13_official_product_ed71.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ZmkYIc0RWb0NCslRMJNCv"
+uri = "file://attached_assets/generated_images/samsung_galaxy_s25_plus_de02.png"
+type = "image"
+title = "generated_image"
