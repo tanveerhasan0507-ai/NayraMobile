@@ -62,7 +62,7 @@ const products = [
     camera: "50MP ZEISS", 
     battery: "6000mAh", 
     chip: "Dimensity 9400", 
-    image: "/vivo-x300-pro.png",
+    image: "/vivo-x300-pro.jpeg",
     desc: "ZEISS professional optics meet blazing Dimensity 9400 performance. 6000mAh battery with 100W FlashCharge. Photography redefined."
   },
   { 
