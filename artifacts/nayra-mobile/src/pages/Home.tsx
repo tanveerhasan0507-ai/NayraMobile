@@ -5,6 +5,7 @@ import { Catalog } from "@/components/Catalog";
 import { Reviews } from "@/components/Reviews";
 import { TradeIn } from "@/components/TradeIn";
 import { DealOfDay } from "@/components/DealOfDay";
+import { StoreLocation } from "@/components/StoreLocation";
 import { Contact } from "@/components/Contact";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <TradeIn />
         <DealOfDay />
         <WhyChooseUs />
+        <StoreLocation />
         <Contact />
       </main>
       

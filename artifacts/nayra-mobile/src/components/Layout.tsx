@@ -116,7 +116,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-sm text-white/60">
                 <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
-                <span>123 Tech Avenue, Electronics Market<br/>City Center, 110001</span>
+                <span>Farid Market, Baliyapur Road<br/>Near Moti Masjid, Govindpur<br/>Dhanbad, Jharkhand</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Clock size={18} className="text-primary shrink-0" />
@@ -131,12 +131,17 @@ export function Footer() {
 
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Location</h4>
-            <div className="w-full h-32 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center relative overflow-hidden group">
-              <div className="absolute inset-0 bg-primary/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity border-t-[#f8f8fc] border-r-[#f8f8fc] border-b-[#f8f8fc] border-l-[#f8f8fc]"></div>
-              <div className="flex flex-col items-center gap-2 text-white/40">
-                <MapPin size={24} />
-                <span className="text-sm font-medium">Map Placeholder</span>
-              </div>
+            <div className="w-full h-36 rounded-xl overflow-hidden border border-white/10">
+              <iframe
+                title="Nayra Mobile Shop Location"
+                src="https://www.google.com/maps?q=Farid+Market,+Baliyapur+Road,+Near+Moti+Masjid,+Govindpur,+Dhanbad,+Jharkhand&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </div>
 
