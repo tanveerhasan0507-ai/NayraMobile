@@ -26,7 +26,7 @@ const products = [
     camera: "48MP Triple Pro", 
     battery: "3850mAh", 
     chip: "A19 Pro", 
-    image: "/iphone-17-pro.png",
+    image: "/iphone-17-pro.webp",
     desc: "Pro. Beyond. The A19 Pro chip powers the most advanced iPhone camera system ever. Black Titanium. Built to last."
   },
   { 
@@ -38,7 +38,7 @@ const products = [
     camera: "200MP Quad", 
     battery: "5000mAh", 
     chip: "Snapdragon 8 Elite", 
-    image: "/s25-ultra.png",
+    image: "/samsung-s25-ultra.jpg",
     desc: "Galaxy AI meets ultimate hardware. 200MP quad camera, built-in S Pen, and Snapdragon 8 Elite — the most powerful Galaxy ever."
   },
   { 
@@ -74,7 +74,7 @@ const products = [
     camera: "50MP ZEISS Dual", 
     battery: "5500mAh", 
     chip: "Snapdragon 7 Gen 3", 
-    image: "/vivo-x300-pro.png",
+    image: "/vivo-v40-pro.png",
     desc: "ZEISS dual portrait cameras. Aura Light technology. 80W FlashCharge and a sleek ultra-slim design built to impress."
   },
 ];
