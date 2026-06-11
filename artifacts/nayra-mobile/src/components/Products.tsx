@@ -43,15 +43,15 @@ const products = [
   },
   { 
     id: 4, 
-    name: "Samsung Galaxy S25+", 
+    name: "Samsung Galaxy S24 Ultra", 
     brand: "Samsung",
-    regularPrice: 99999, 
-    offerPrice: 89999, 
-    camera: "50MP Triple", 
-    battery: "4900mAh", 
-    chip: "Snapdragon 8 Elite", 
-    image: "/s25-plus.png",
-    desc: "Galaxy AI for everyone. Slim, powerful and packed with intelligence. The perfect balance of size and performance."
+    regularPrice: 124999, 
+    offerPrice: 109999, 
+    camera: "200MP Quad", 
+    battery: "5000mAh", 
+    chip: "Snapdragon 8 Gen 3", 
+    image: "/samsung-s24-ultra.webp",
+    desc: "Built-in S Pen, 200MP pro camera and Galaxy AI intelligence. The ultimate Android powerhouse for creators and professionals."
   },
   { 
     id: 5, 
