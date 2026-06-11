@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, ChevronRight } from "lucide-react";
+import { MessageCircle, ChevronRight, Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 type Brand = "All" | "Apple" | "Samsung" | "Vivo" | "OPPO" | "OnePlus";
@@ -119,8 +119,15 @@ const tabAccent: Record<Brand, string> = {
 
 export function Catalog() {
   const [activeTab, setActiveTab] = useState<Brand>("All");
+  const [query, setQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  const filtered = activeTab === "All" ? allModels : allModels.filter(m => m.brand === activeTab);
+  const filtered = allModels.filter(m => {
+    const matchBrand = activeTab === "All" || m.brand === activeTab;
+    const q = query.trim().toLowerCase();
+    const matchQuery = !q || m.name.toLowerCase().includes(q) || m.brand.toLowerCase().includes(q) || m.specs.toLowerCase().includes(q);
+    return matchBrand && matchQuery;
+  });
 
   const handleInquire = (name: string, price: string) => {
     const msg = encodeURIComponent(`Hi Nayra Mobile Shop! I'm interested in the ${name} (${price}). Is it available? Please share details.`);
@@ -140,7 +147,7 @@ export function Catalog() {
         </div>
 
         {/* Brand Tabs */}
-        <div className="flex flex-wrap gap-2 justify-center mb-10">
+        <div className="flex flex-wrap gap-2 justify-center mb-8">
           {tabs.map(tab => (
             <button
               key={tab}
@@ -162,9 +169,49 @@ export function Catalog() {
           ))}
         </div>
 
+        {/* Search Bar */}
+        <div className="flex justify-center mb-6">
+          <motion.div
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+            className={`relative w-full max-w-[580px] group`}
+          >
+            <Search
+              size={16}
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-white/30 group-focus-within:text-primary transition-colors duration-200 pointer-events-none"
+            />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder="Search phones, brands, models..."
+              className="w-full bg-background/60 border border-white/10 group-focus-within:border-primary/50 rounded-2xl pl-10 pr-10 py-3 text-sm text-white placeholder:text-white/25 outline-none transition-all duration-200 focus:shadow-[0_0_0_3px_rgba(0,210,255,0.12)] backdrop-blur-sm"
+            />
+            <AnimatePresence>
+              {query && (
+                <motion.button
+                  initial={{ opacity: 0, scale: 0.7 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.7 }}
+                  transition={{ duration: 0.15 }}
+                  onClick={() => { setQuery(""); inputRef.current?.focus(); }}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white/50 hover:text-white transition-colors"
+                  aria-label="Clear search"
+                >
+                  <X size={12} />
+                </motion.button>
+              )}
+            </AnimatePresence>
+          </motion.div>
+        </div>
+
         {/* Model count */}
         <p className="text-center text-white/30 text-xs mb-8">
-          Showing {filtered.length} models
+          {query
+            ? `${filtered.length} result${filtered.length !== 1 ? "s" : ""} for "${query}"`
+            : `Showing ${filtered.length} models`}
         </p>
 
         {/* Grid */}
